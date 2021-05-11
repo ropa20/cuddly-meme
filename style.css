@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image:url(header.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1{
+  font-size: 3em;
+  color: aliceblue; 
+} 
+hr{
+  border-color: coral;
+  border-width: 3px;
+  max-width: 65px;
+
+}
+.buffer{
+  height: 10rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+}
+.btn-primary{
+   background-color: coral;
+   border-color: coral;
+}
+.btn-xl{
+  padding: 1em 2em;
+}
+.btn-primary:hover
+{
+  background-color: rgb(153, 49, 12);
+  border-color: rgb(153, 49, 12);
+  border-width: 4px;
+}
