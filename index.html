@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-  </head>
-  <body>
-    <div class="container d-flex align-items-center h-100"> <!--using flex and making the container full size so as to get the proper center-->
-      <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase">
-            <strong>The biggest Start up of the year</strong><br></h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr>
-         <button type="button" class="btn btn-primary btn-xl"><a href="https://us1.admin.mailchimp.com/campaigns/edit?id=4886650">Find out more</a></button>
-       </section>
-      </div>
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Japanese name</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="container">
+                <h1>Generate your Japanese name </h1>
+                <form id="japanese_name" action= "POST">
+                    Your name : <input type="text" name="fname" id="f"><br><br>
+                    Birth date : <input type="date" name="date" id="d"><br><br>
+                </form>
+                <button type="button" id="generate">Generate</button>
+            </div>
+            <div class="result">
+               <mark> <textarea id= "result_display" cols="15" rows="5">Ohio,_______</textarea></mark>
+            </div>
+            
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
